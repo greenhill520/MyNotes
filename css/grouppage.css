@@ -1,0 +1,69 @@
+body{
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+}
+a:link{text-decoration:none;color:green;}
+a:active{text-decoration:blink;}
+a:hover{ background:#AFEEEE;color:red;}
+a:visited{text-decoration:none;color:green;}
+h1{
+	background:#0C6;
+	margin-bottom:10px;
+}
+
+#group-notification a{
+	font-size: 14px;
+	float: right;
+	padding-top:2px;
+}
+
+h2,#menbernoteshead{
+	color:#3CB371;
+}
+#top-nav{
+	float:right;
+}
+#group-notification{
+	background:#FFF0F5;
+	width:460px;
+	padding:20px;
+	border:1px dashed #030444;
+}
+#groupmenbers{
+	overflow:hidden;
+	padding-left:20px;
+	width:250px;
+}
+#groupmenbers h2,#menbernoteshead{
+	background:#E6E6FA;
+}
+#menbersnotes{
+	width:500px;
+	margin-top:20px;
+}
+#allnotemessage{
+	color:#3CB371;
+	border:1px dashed #030444;
+}
+td{
+	padding:5px;
+	border-bottom: 1px dashed #DDDDDD;
+}
+dt{
+	padding-right:80px;
+}
+#footer{
+	padding:100px 0px 20px 0px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}
+#leftpart{
+	float:left;
+}

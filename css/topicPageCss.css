@@ -1,0 +1,50 @@
+body{
+	padding-top: 0px;
+	width: 80%;
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+	font-weight: bold;
+	color: black;
+}
+#temp {
+	margin:0px 0px 0px 150px;
+}
+#inputbanner {
+	text-align: center;
+	color:#528641;
+}
+
+.label{
+width: 130px;
+float: left;
+color: #3CB371;
+}
+
+input {
+	width: 175px;
+}
+
+#inputcontent {
+	padding-left: 10px;
+
+}
+
+form {
+	padding-left: 400px;
+}
+
+.button{
+	margin-left:180px;
+	background-color:#3CB371;
+	color:black;
+	width:130px;
+}
+
+#footer{
+	padding:100px 0px 20px 250px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}

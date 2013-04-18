@@ -1,0 +1,245 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+}
+body {
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+}
+
+li { 
+	list-style: none; 
+}
+img { 
+	border: 0; 
+}
+li a{
+	text-decoration:none;
+	color:black;
+}
+li a:hover {
+	background-color:#336699;
+	color:white;
+}
+.roll {
+	 width: 750px;
+	 height: 149px;
+	 position: relative;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 950px;
+}
+.bookitem {
+	overflow:hidden;
+	float:left;
+	margin-bottom:20px;
+	border-bottom: 1px dashed #336699;
+}
+ .bookitem img {
+	width:100px;
+	height:149px;
+	display:block;
+	max-width: 100px; 
+	overflow:hidden;
+ }
+.color-gray {
+	font: 14px/150% Arial,Helvetica,sans-serif;
+	color: #666666;
+	text-indent: 2em;
+}
+.newbook {
+	width:750px;
+	clear: both;
+    overflow: hidden;
+	display: inline-block;
+	margin-top:35px;
+}
+.btn_left { 
+	display: block; 
+	width: 46px; 
+	height: 46px; 
+	background: url(../images/btn.png) no-repeat -47px -47px; 
+	position: absolute; 
+	top: 50px; 
+	left: 1px; 
+	z-index: 1; 
+}
+.btn_left:hover { 
+	background: url(../images/btn.png) no-repeat -47px 0;
+ }
+.btn_right { 
+	display: block; 
+	width: 46px; 
+	height: 46px; 
+	background: url(../images/btn.png) no-repeat 1px -47px; 
+	position: absolute; 
+	top: 50px; 
+	right: 0; 
+	z-index: 1;
+ }
+.btn_right:hover { 
+	background: url(../images/btn.png) no-repeat 1px 0;
+ }
+ .btn2_left { 
+	display: block; 
+	width: 18px; 
+	height: 18px; 
+	background: url(../images/btn2.png) no-repeat -6px -7px; 
+	top: 50px; 
+	left: 1px; 
+	z-index: 1; 
+	margin:0 5px 0 5px;
+}
+.btn2_right { 
+	display: block; 
+	width: 18px; 
+	height: 18px; 
+	background: url(../images/btn2.png) no-repeat -34px -7px;  
+	top: 50px; 
+	right: 0; 
+	z-index: 1;
+	margin:0 5px 0 5px;
+ }
+ #book1 {
+	left:0px;
+    overflow: hidden;
+    padding: 2px 0 20px;
+    width: 750px;
+	position: relative;
+ }
+ #book2,#book3 {
+	left:-750px;
+    overflow: hidden;
+    padding: 2px 0 20px;
+    width: 750px;
+	position: absolute;
+ }
+.roll .wrap { 
+	width: 630px; 
+	height: 149px; 
+	margin: 0 auto;
+	position: relative; 
+	overflow: hidden;
+ }
+.img2 {
+	border: 1px dotted #778855;
+	width:100px;
+	height:149px;
+	display:block;
+	max-width: 100px; 
+	overflow:hidden;
+ }
+.roll ul { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+.roll li { 
+	float: left; 
+	width: 130px; 
+	height: 149px; 
+	text-align: center; 
+}
+.roll li a:hover { 
+	position: relative;
+	top: 2px; 
+ }
+.control { 
+	border-bottom: 1px solid #ccc; 
+	background: #eee; 
+	text-align: center;
+	padding: 20px 0; 
+	display: none; 
+ }
+.comments  {
+	clear: both;
+    padding: 5px 10px 5px 3px;
+    overflow: hidden;
+	position: absolute;
+	display: inline-block;
+}
+.userface {
+	float: left;
+    margin: 6px;
+	width:48px;
+	height:48px;
+}
+.bord {
+	border: 1px dotted #778855;
+	width:740px;
+	margin-bottom:20px;
+	overflow: hidden;
+	color: #666666;
+	font: 14px/150% Arial,Helvetica,sans-serif;
+}
+.comment1 {
+	text-indent: 2em;
+}
+.tips  {
+	margin-bottom:20px;
+	color: #006600;
+	font: 18px/150% Arial,Helvetica,sans-serif;
+}
+#v2,#v3,#v4 {
+	display:none;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float:right;
+}
+.aside {
+	padding:50px 0px 0px 20px;
+	float:right;
+}
+.newuser {
+	overflow:hidden;
+	margin-bottom:20px;
+	border-bottom: 1px dashed #DDDDDD;
+}
+.newuser img {
+	width:48px;
+	height:48px;
+}
+.aside-part {
+	margin-bottom:50px;
+}
+.range {
+	font: 14px/150% Arial,Helvetica,sans-serif;
+	color: #666666;
+}
+.Pro{
+	margin-right:20px;
+	float: right;
+}
+.Pro li {
+	border-right:1px solid #c8c8c8;
+	margin-right:5px;
+	display: inline;
+}
+.Pro li a:hover {
+	/*text-decoration: underline;*/
+}
+#footer{
+	padding:100px 0px 20px 0px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}
+/*
+.bk {
+	display:block;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid ddd;
+	-webkit-box-shadow:0 0 10px black;
+	-moz-box-shadow:0 0 10px black;
+	padding:10px;
+}
+*/

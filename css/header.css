@@ -1,0 +1,27 @@
+* {
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+}
+#comheader{
+	margin-right: 20px;
+	float: right;
+	font-family: Verdana,Tahoma,Serif;
+    font-size: 14px;
+	margin-top:40px;
+}
+li.headerli{
+	border-right:1px solid #c8c8c8;
+	margin-right:5px;
+	display: inline;
+}
+li.headerli>a{
+	color: #3CB371;
+}
+
+li.headerli>a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	overflow:hidden;
+	text-align: left;
+}

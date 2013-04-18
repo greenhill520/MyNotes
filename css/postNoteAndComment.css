@@ -1,0 +1,15 @@
+* {
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+}
+img {
+	width:200px;
+	height:200px;
+}
+div  #success {
+	margin:auto;
+	width:1000px;
+}
+div  #failed {
+	margin:auto;
+	width:1000px;
+}

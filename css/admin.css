@@ -1,0 +1,268 @@
+body {
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pro {
+	float:left;
+	width:82%;
+	padding-left:15px;
+	background-color: #0C6;
+}
+
+
+li {
+	margin-left:-10px;
+	display:inline-block;
+	border-bottom:solid gray 1px;
+	overflow:hidden;
+	width:100%;
+	height:30px;
+}
+a {
+	text-decoration: none;
+}
+li:hover,li:active{
+	color:#000;
+	text-decoration: none;
+	background-color: #e8ebef;
+}
+
+.edEle {
+	width:82%;
+	float:left;
+	overflow:visible;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:20px;
+}
+
+.edEle a{
+	color:black;
+	display:inline-block;
+	width:90%; 
+	float:left;
+}
+.navigation {
+	float:left;
+	display:block;
+	overflow:visible;
+	height:100%;
+}
+.navigation a:link,a:visited {
+	background-color: #e8ebef;
+	 padding-left:23px; 
+	 color:#000000;
+	 text-decoration: none;
+}
+.navigation a:hover,a:active{
+	color:#000;
+	text-decoration: none;
+	background-color: #c6cdd6;
+}
+.navigation a{
+	display:block;
+	padding:5px;
+	width:100%; 
+}
+/*定义链接的样式*/
+.navigation ul{
+	background:url(../images/background.png) repeat left;
+	width:150px; 
+	margin:0px 20px -1px 20px; 
+	padding:1px;
+}
+.navigation li.selected{
+	font-weight:bolder;
+	position: relative;
+	top: 1px;
+}
+
+.navigation li.selected a{ /*selected main tab style */
+	background-color:#485d74;
+	border-bottom-color: white;
+}
+
+#pro {
+	clear:both;
+}
+
+#main {
+	float:left;
+	width:75%;
+	margin-left:5px;
+}
+label {
+	margin-bottom:5px;
+	width:10em;
+	margin-right:2px;
+	display:inline-block;
+}
+#picture img{
+	width:100px;
+	height:150px;
+	border:solid gray 1px;
+	margin:20px;
+	float:left;
+	overflow:hidden;
+}
+
+input {
+	margin-bottom:5px;
+}
+input[type="checkbox"]{
+	float:left;
+}
+
+#banner {
+	height:80px;
+	width:100%;
+	border-bottom:#c8c8c8 solid;
+	background-image:url();
+	clear:both;
+}
+#content {
+	float:left;
+	width:100%;
+	border-top:solid  3px #c8c8c8;
+	overflow:hidden;
+}
+.headList{
+	margin-left:20px;
+	float: left;
+}
+.headList li {
+	border-right:1px solid #c8c8c8;
+	margin-right:5px;
+	display: inline;
+}
+.headList li a:hover {
+	text-decoration: underline;
+}
+
+.Pro{
+	margin-right:20px;
+	float: right;
+}
+.Pro li {
+	border-right:1px solid #c8c8c8;
+	margin-right:5px;
+	display: inline;
+}
+.Pro li a:hover {
+	text-decoration: underline;
+}
+
+.imgEdit {
+	display:inline-block;
+	border:solid gray 1px;
+	float:right;
+	width:2%;
+}
+
+.title {
+	font-size:15px;
+	float:left;
+	width:20%;
+}
+.info {
+	width:70%;
+	float:left;
+	font-size:14px;
+	overflow:hidden;
+	color:#a0a0a0;
+	white-space:nowrap;
+	-moz-binding: url('ellipsis.xml#ellipsis');
+}
+.bottom{
+	margin-top:10px;
+	text-align:right;
+	width:100%;
+	clear:both;
+}
+form {
+	width:60%;
+}
+#content {
+	float:left;
+	width:80%;
+}
+
+.prompt {
+	width:4em;
+	margin-top:5px;
+	float:left;
+}
+.value {
+	width:62%;
+	float:left;
+	margin-top:5px;
+}
+
+.pubInfo {
+	overflow:hidden;
+	width:100%;
+}
+#brief {
+	clear:both;
+}
+ #infotext {
+	width:100%;
+	
+}
+.eleDetail{
+	float:left;
+	width:80%;
+	vertical-align:-4px;
+	text-align:left;
+	margin-bottom:3px;
+	clear:right;
+}
+
+.edit{
+	width:62%;
+	float:left;
+}
+.prompt {
+	width:8em;
+	display:inline-block;
+	float:left;
+}
+.imgUp {
+	width:8em;
+	display:inline-block;
+	float:left;
+	
+}
+.msg {
+	left:left;
+	text-align:left;
+}
+#sub {
+	clear:both;
+}
+.reply img {
+	width:200px;
+	height:200px;
+}
+div  #success {
+	margin:auto;
+	width:300px;
+}
+div  #failed {
+	margin:auto;
+	width:300px;
+}
+#overall {
+	text-align:center;
+}
+#footer{
+	padding:100px 0px 20px 0px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}

@@ -1,0 +1,269 @@
+body {
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#myInfo {
+	border:1px solid gray;
+	width: 20%;
+	float: right;
+}
+label {
+	margin-bottom:5px;
+	margin-right:2px;
+	display:inline-block;
+}
+
+input {
+	margin-bottom:5px;
+}
+
+#banner {
+	height:80px;
+	width:100%;
+	border-bottom:#c8c8c8 solid;
+	background-image:url();
+	clear:both;
+}
+#MyZone {
+	text-align:left;
+	font-weight:bolder;
+	margin-left:60px;
+}
+#content {
+	float:left;
+	width:70%;
+	border-top:solid  3px #c8c8c8;
+	margin-left:80px;
+}
+.headList{
+	margin-left:20px;
+	float: left;
+}
+.headList li {
+	border-right:1px solid #c8c8c8;
+	margin-right:5px;
+	display: inline;
+}
+.headList li a:hover {
+	text-decoration: underline;
+}
+
+.shadetabs{
+	/* width: 90%; width of menu. Uncomment to change to a specific width */
+	margin-top:-2px;
+	margin-bottom:-2px;
+}
+
+.shadetabs ul{
+	padding: 0;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	text-align: center; /*可设置菜单的位置 left, center,或者 right*/#ffffff
+}
+
+.shadetabs li{
+	display: inline;
+}
+
+.shadetabs li a{
+	font-size:16px;
+	width:5em;
+	float:left;
+	padding: 6px 10px;
+	border: 2px solid #778;
+	color: #2d2b2b;
+	text-align:center;
+	margin-bottom:-3px;
+	background: white url("../images/shade.gif") top left repeat-x;
+	text-decoration: none;
+}
+
+.shadetabs li a:visited{
+	color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+	text-decoration: underline;
+	color: #2d2b2b;
+}
+
+.shadetabs li.selected{
+	font-weight:bolder;
+	position: relative;
+	top: 1px;
+}
+
+.shadetabs li.selected a{ /*selected main tab style */
+	background-image: url("../images/shadeactive.gif");
+	background-repeat:repeat-x;
+	border-bottom-color: white;
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+
+.proImg {
+	height:150px;
+	width: 100px;
+	border:solid gray 1px;
+	float:left;
+	display:inline-block;
+	margin:0 2em 2em 0;
+}
+
+#myTest {
+	height:200px;
+	width:250px;
+	border:solid gray;
+}
+
+#myMess {
+	margin-top:25px;
+	float:left;
+	width:73%;
+}
+
+.editLi{
+	margin-top:40px;
+	margin-right:40px;
+	float:right;
+	font-size:14px;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+.editLi li a
+{
+	display:inline-block;
+	text-decoration:none;
+	background-image:url("../images/proEdit.gif"));
+	padding:0.2em 0.6em;
+	border:1px solid white;
+}
+
+.editLi a:hover {
+	text-decoration: underline;
+	font-weight:bolder;
+	color:black;
+}
+
+.mini {
+	display:inline-block;
+	border:solid 3px #c8c8c8;
+	height:35px;
+	width:20px;
+	float:left;
+	margin-right:10px;
+}
+.edEle ul {
+	list-style-type:none;
+}
+
+.edEle li {
+	border-bottom:solid 1px gray;
+}
+.bottom{
+	margin-top:10px;
+	text-align:right;
+	width:100%;
+	clear:both;
+}
+
+.imgEdit {
+	float:right;
+}
+.tips  {
+	text-align:left;
+	margin-bottom:20px;
+	color: #006600;
+    font: 18px/150% Arial,Helvetica,sans-serif;
+}
+.aside {
+	margin-left:40px;
+	float:left;
+}
+.newuser {
+	overflow:hidden;
+	margin-bottom:20px;
+	border-bottom: 1px dashed #DDDDDD;
+}
+.newuser img {
+	width:48px;
+	height:48px;
+}
+.aside-part {
+	margin-bottom:50px;
+}
+.range {
+	font: 14px/150% Arial,Helvetica,sans-serif;
+	color: #666666;
+}
+.comments  {
+	clear: both;
+    padding: 5px 10px;
+    overflow: hidden;
+	position: absolute;
+	display: inline-block;
+}
+
+.userface {
+	float: left;
+    margin: 6px;
+	width:48px;
+	height:48px;
+}
+.bord, .gAdmin{
+	border: 1px dotted #778855;
+	width:740px;
+	margin-bottom:20px;
+	overflow: hidden;
+	color: #666666;
+	font: 14px/150% Arial,Helvetica,sans-serif;
+}
+.gAdmin {
+	border:none;
+}
+.comment1 {
+	text-indent: 2em;
+}
+.prompt {
+	font-size:19px;
+	font-weight:bold;
+	color:#3CB371;
+}
+textarea {
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+#userHead{
+	width: 720px;
+}
+
+#userHead>a{
+	font-size:14px;
+	color: #3CB371;
+	float: right;
+}
+
+.editLabel {
+	float:left;
+}
+#upLoad {
+	margin-left:300px;
+}
+#footer{
+	padding:100px 0px 20px 0px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}

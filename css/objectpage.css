@@ -1,0 +1,169 @@
+﻿body{
+	font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+	background:url(../images/background.png) repeat left;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+a:link{text-decoration:none;color:blue}
+a:active{text-decoration:blink}
+a:hover{background:#AFEEEE;color:red}
+a:visited{text-decoration:none;color:green}
+li{
+	list-style-type:none;
+}
+h1{
+	background: #090;
+}
+h2{
+	
+}
+h3,h4{
+	font-weight:normal;
+	color:#003399;
+}
+hr{
+	border-style:dotted;
+}
+#info{
+	float:left;
+	margin-top:50px;
+	margin-left:20px;
+}
+#commend{
+	float: right;
+	width: 200px;
+	height:200px;
+	background: #F4F4EC;
+	padding:0px 0px 0px 20px;
+}
+#writenote,#writecomment{
+	padding:10px;
+	border:dashed 1px #3CB371;
+}
+.btn-submit {
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 26px;
+	background: none repeat scroll 0 0 #3FA156;
+    border: 1px solid #528641;
+    color: #FFFFFF;
+}
+#commend li{
+	padding:5px;
+}
+#info span{
+	font-weight:bold;
+	color:#3CB371;
+}
+.intent{
+	background:#FFF0F5;
+	padding:20px;
+	border:1px none #030444;
+}
+#top-nav{
+	float:right;
+}
+#mainpic img{
+	width:145px;
+	height:200px;
+	float:left;
+}
+
+.stars{
+	clear:both;
+}
+#bookinfo h2,#db-tags-section h2,#fleft,#bookreview,#booknotes{
+	color:#3CB371;
+
+}
+.gtleft{
+	margin-left:0px;
+	padding:5px;
+	width:250px;
+}
+.text_vote1{
+    background: url("../images/notvote.png");
+    color: #999999;
+    font-size: 12px;
+    height: 44px;
+	margin-top:10px;
+	padding-bottom:0px;
+	padding-top:10px;
+    text-align: center;
+    width: 146px;
+}
+#vote_num{
+	color:#3CB371;
+	font-size:14px;
+}
+#vote_txt{
+	overflow:auto;
+}
+.writeorreviewthebook{
+	color:black;
+	font-size:13px;
+	float:right;
+}
+
+#moreabstact{
+	background:url("picture/showall.png");
+	float:right;
+}
+#morenotes,#morenotes a,#morecomments,#morecomments a{
+	text-align:right;
+	color:#32CD32;
+}
+#footer{
+	padding:100px 0px 20px 0px;
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+#footer a{color: #093;}
+#photoandmsgtitle{
+	float:left;
+}
+#hidecomments,#hidenotes{
+	margin-left:0px;
+}
+.write{
+	overflow: hidden;
+}
+.box{
+	background: #E4FFCA;
+    display: inline-block;
+    line-height: 22px;
+    padding: 4px;
+	margin: 8px;
+}
+.each_review{
+	overflow: hidden;
+}
+
+.each_review img{
+	float: left;
+}
+.what_review{
+	float: left;
+	margin-left:5px;
+	width: 600px;
+}
+
+.what_review h3{
+	margin-top: 0;
+	background: #E6E6FA;
+}
+
+.what_review p{
+	padding: 5px;
+}
+
+.userpic {
+	width: 48px;
+	height: 48px;
+}
